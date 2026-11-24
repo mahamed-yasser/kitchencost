@@ -1,0 +1,14 @@
+{
+  "name": "kitchencost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recipe costing with unit conversion, waste factors, price-rise tracking and a buying list.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-force-exit test/*.test.js",
+    "e2e": "node docs/e2e.js"
+  }
+}
